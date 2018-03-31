@@ -1,0 +1,3 @@
+To obtain the tweets, you will need a valid Twitter developer account, and to install the Tweepy library (https://github.com/tweepy/tweepy). The steps required to obtain the developer status, and the corresponding consumer key, consumer secret, acess token, and access token secret are described in this link (https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens). Once you have the tokens, place them in the corresponding places in the provided script.
+
+The script receives a single input argument, the dataset file name. The script will generate a "tweets.txt" file, where each line is a json containing all data associated with that unique id.
